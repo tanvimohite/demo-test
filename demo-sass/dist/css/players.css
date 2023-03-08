@@ -1,0 +1,121 @@
+.wrapper .mid-sec .mid-wrap {
+  height: 407px;
+  max-width: 355px;
+  background: #fff;
+  margin: 0 auto;
+  padding: 6px 10px;
+  overflow: scroll;
+}
+.wrapper .mid-sec .mid-wrap .header {
+  background: #E4E4E4;
+  border-radius: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 6px 54px 6px 13px;
+}
+.wrapper .mid-sec .mid-wrap .header .right {
+  display: flex;
+}
+.wrapper .mid-sec .mid-wrap .header .right p:nth-child(1) {
+  margin-right: 24px;
+}
+.wrapper .mid-sec .mid-wrap .header p {
+  font-weight: 500;
+  font-size: 8px;
+  line-height: 9px;
+  color: #474747;
+}
+.wrapper .mid-sec .mid-wrap .col-1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10px;
+  min-height: 57px;
+}
+.wrapper .mid-sec .mid-wrap .col-1 .left-wrap {
+  display: flex;
+  align-items: center;
+}
+.wrapper .mid-sec .mid-wrap .col-1 .left-wrap img {
+  margin-right: 15px;
+}
+.wrapper .mid-sec .mid-wrap .col-1 .left-wrap .player-name {
+  font-size: 16px;
+  line-height: 20px;
+}
+.wrapper .mid-sec .mid-wrap .col-1 .left-wrap .team {
+  font-size: 12px;
+}
+.wrapper .mid-sec .mid-wrap .col-1 .right-wrap {
+  display: flex;
+  align-items: center;
+}
+.wrapper .mid-sec .mid-wrap .col-1 .right-wrap .points {
+  font-size: 14px;
+  margin-right: 20px;
+}
+.wrapper .mid-sec .mid-wrap .col-1 .right-wrap .credits {
+  font-size: 14px;
+  margin-right: 20px;
+}
+.wrapper .bot-sec {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin: 20px 20px 0 0;
+}
+.wrapper .bot-sec .setting {
+  background: #E47C29;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 22px;
+  width: 40px;
+  height: 40px;
+  margin-right: 29px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.wrapper .bot-sec .setting::before {
+  content: "3";
+  background: #FF5454;
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  top: -4px;
+  position: absolute;
+  right: 3px;
+  font-weight: 500;
+  font-size: 8px;
+  line-height: 9px;
+  line-height: 0;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.wrapper .bot-sec .cta button {
+  font-size: 16px;
+  line-height: 17px;
+  text-align: center;
+  color: #FFFFFF;
+  background: #E47C29;
+  border-radius: 4px;
+  padding: 20px;
+  border: none;
+  outline: none;
+  min-width: 148px;
+  width: 100%;
+  font-size: 16px;
+  line-height: 17px;
+  text-align: center;
+  font-weight: 500;
+  color: #FFFFFF;
+}
+.wrapper .col-change {
+  background: rgba(2, 75, 92, 0.1);
+  /* opacity: 0.1; */
+  border-radius: 6px;
+}/*# sourceMappingURL=players.css.map */

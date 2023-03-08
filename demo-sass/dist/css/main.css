@@ -1,0 +1,180 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+html, body, div, span, object, iframe, figure, h1, h2, h3, h4, h5, h6, p, a, col, ul, li, caption, main, footer, header, nav, section {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: none;
+     -moz-text-size-adjust: none;
+          text-size-adjust: none;
+}
+
+.main {
+  background: #002947;
+}
+.main .wrapper {
+  width: 100%;
+  height: 100%;
+  font-family: "Archivo";
+  font-weight: 400;
+  padding-bottom: 13px;
+  max-width: 375px;
+  margin: 0 auto;
+}
+.main .wrapper .top-sec {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 26px 20px;
+}
+.main .wrapper .top-sec .left-wrap {
+  display: flex;
+  align-items: center;
+}
+.main .wrapper .top-sec .left-wrap .arrow-img {
+  display: flex;
+}
+.main .wrapper .top-sec .left-wrap .text {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 22px;
+  padding-left: 20px;
+  color: #fff;
+}
+.main .wrapper .top-sec .right-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main .wrapper .top-sec .right-wrap .timer-wrap {
+  background: #024B5C;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  padding: 5px 12px;
+  margin-right: 20px;
+}
+.main .wrapper .top-sec .right-wrap .timer-wrap p {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 13px;
+  color: #fff;
+}
+.main .wrapper .top-sec .right-wrap .que-img {
+  display: flex;
+  align-items: center;
+  margin-top: 1px;
+}
+.main .wrapper .sec-a {
+  padding: 0 20px 20px;
+}
+.main .wrapper .sec-a .flag-a, .main .wrapper .sec-a .flag-b {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.main .wrapper .sec-a .flag-a .left-wrap, .main .wrapper .sec-a .flag-b .left-wrap {
+  display: flex;
+  margin: 6px 0;
+  align-items: center;
+}
+.main .wrapper .sec-a .flag-a .left-wrap p, .main .wrapper .sec-a .flag-b .left-wrap p {
+  font-size: 12px;
+  line-height: 13px;
+  color: #fff;
+  text-transform: uppercase;
+  padding-left: 11px;
+}
+.main .wrapper .sec-a .flag-a .right-wrap, .main .wrapper .sec-a .flag-b .right-wrap {
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 2px;
+  padding: 2px 14px;
+}
+.main .wrapper .sec-a .flag-a .right-wrap p, .main .wrapper .sec-a .flag-b .right-wrap p {
+  font-size: 12px;
+  line-height: 13px;
+  color: #fff;
+}
+.main .wrapper .sec-a .outer-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 14px;
+}
+.main .wrapper .sec-a .outer-wrap .left-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.main .wrapper .sec-a .outer-wrap .left-wrap .outer-credit {
+  background: #024B5C;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 6px;
+  margin-right: 10px;
+}
+.main .wrapper .sec-a .outer-wrap .left-wrap .outer-credit .credit-left {
+  font-weight: 500;
+  font-size: 8px;
+  margin-bottom: 7px;
+  color: #FFFFFF;
+}
+.main .wrapper .sec-a .outer-wrap .left-wrap .outer-credit .credit-left span {
+  font-size: 16px;
+}
+.main .wrapper .sec-a .outer-wrap .left-wrap .outer-credit .progress-bar {
+  display: flex;
+}
+.main .wrapper .sec-a .outer-wrap .right-wrap {
+  display: flex;
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 34px;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 17px;
+}
+.main .wrapper .sec-a .outer-wrap .right-wrap .list {
+  background: #E47C29;
+  border-radius: 34px;
+  padding: 13px 17px;
+  margin-right: 12px;
+  display: flex;
+}
+.main .wrapper .sec-a .outer-wrap .right-wrap .list p {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 13px;
+  color: #fff;
+  padding-left: 4px;
+}
+.main .wrapper .sec-a .outer-wrap .right-wrap .pitch {
+  border-radius: 34px;
+  padding-right: 17px;
+  margin-right: 12px;
+  display: flex;
+}
+.main .wrapper .sec-a .outer-wrap .right-wrap .pitch p {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 13px;
+  color: #fff;
+  padding-left: 4px;
+}
+@media (max-width: 373px) {
+  .main .wrapper .sec-a .outer-wrap .right-wrap {
+    padding-right: 0;
+  }
+}
+.main .wrapper .sec-a .flag-b .right-wrap {
+  background: rgba(0, 0, 0, 0.3);
+}/*# sourceMappingURL=main.css.map */
