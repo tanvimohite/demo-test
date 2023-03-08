@@ -1,0 +1,140 @@
+.wrapper{
+    .mid-sec{
+        .mid-wrap{
+            height: 407px;
+            max-width: 355px;
+            background: #fff;
+            margin: 0 auto;
+            padding: 6px 10px;
+            overflow: scroll;
+        .header{
+            background: #E4E4E4;
+            border-radius: 45px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 6px 54px 6px 13px;
+        .right{
+            display: flex;
+        p{
+            &:nth-child(1){
+                    margin-right: 24px;
+                } 
+        }
+        }
+        p{
+            font-weight: 500;
+            font-size: 8px;
+            line-height: 9px;
+            color: #474747;
+            // &:nth-child(1){
+            //     margin-right: 166px;
+            // }
+            // &:nth-child(2){
+            //     margin-right: 24px;
+            // }
+            // &:nth-child(3){
+            //     margin-right: 53px;
+            // }
+        }
+        
+        }
+        .col-1{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 10px;
+            min-height: 57px;
+        .left-wrap{
+            display: flex;
+            align-items: center;
+        img{
+            margin-right: 15px;
+        }
+        .player-name{
+            font-size: 16px;
+            line-height: 20px;
+        }
+        .team{
+            font-size: 12px;
+        }
+        }
+        .right-wrap{
+            display: flex;
+            align-items: center;
+        .points{
+            font-size: 14px;
+            margin-right: 20px;
+        }
+        .credits{
+            font-size: 14px;
+            margin-right: 20px;
+        }
+        }
+        }
+        }
+
+    }
+    .bot-sec{
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        margin: 20px 20px 0 0;
+    .setting{
+        background: #E47C29;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 22px;
+        width: 40px;
+        height: 40px;
+        margin-right: 29px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+    &::before{
+        content: "3";
+    background: #FF5454;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    top: -4px;
+    position: absolute;
+    right: 3px;
+    font-weight: 500;
+font-size: 8px;
+line-height: 9px;
+line-height: 0;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+    }
+    .cta{
+        button{
+            font-size: 16px;
+        line-height: 17px;
+        text-align: center;
+        color: #FFFFFF;
+        background: #E47C29;
+border-radius: 4px;
+padding: 20px;
+border: none;
+outline: none;
+min-width: 148px;
+width: 100%;
+font-size: 16px;
+line-height: 17px;
+text-align: center;
+font-weight: 500;
+color: #FFFFFF;
+        }
+        
+        }
+    }
+    .col-change{background: rgb(2 75 92 / 10%);
+    /* opacity: 0.1; */
+    border-radius: 6px;}
+
+}
